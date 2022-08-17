@@ -1,0 +1,7 @@
+name: AuthPlayer
+version: '${project.version}'
+main: net.toiletmc.authplayer.AuthPlayer
+api-version: 1.15
+authors: [ TheLittle_Yang ]
+description: 自动给予正版称号。
+website: longchungui.com
