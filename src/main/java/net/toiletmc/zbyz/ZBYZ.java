@@ -21,7 +21,7 @@ public final class ZBYZ extends JavaPlugin implements Listener {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender.hasPermission("zbyz.admin")) {
-            if (args[0].equalsIgnoreCase("reload")) {
+            if (args.length > 0  && args[0].equalsIgnoreCase("reload")) {
                 saveDefaultConfig();
                 reloadConfig();
                 isDebug = getConfig().getBoolean("debug",false);
