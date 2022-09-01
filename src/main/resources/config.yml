@@ -1,0 +1,5 @@
+debug: false
+#commands是检测到正版玩家后执行的命令。
+#变量：{player} 将被转换为正版玩家名。
+commands:
+  - luckperms user {player} parent add premium

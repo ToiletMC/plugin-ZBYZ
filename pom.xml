@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.toiletmc</groupId>
-    <artifactId>authplayer</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>zbyz</artifactId>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
-    <name>AuthPlayer</name>
+    <name>ZBYZ</name>
 
-    <description>自动给予正版称号。</description>
+    <description>自动给予正版奖励。</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

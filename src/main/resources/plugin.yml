@@ -1,7 +1,15 @@
-name: AuthPlayer
+name: ZBYZ
 version: '${project.version}'
-main: net.toiletmc.authplayer.AuthPlayer
+main: net.toiletmc.zbyz.ZBYZ
 api-version: 1.15
 authors: [ TheLittle_Yang ]
-description: 自动给予正版称号。
+description: 自动给予正版奖励。
 website: longchungui.com
+commands:
+  zbyz:
+    description: reload commands form config.yml
+    permission: zbyz.admin
+    usage: /zbyz reload
+permissions:
+  zbyz.admin:
+    default: op
